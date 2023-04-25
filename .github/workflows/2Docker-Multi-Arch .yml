@@ -1,10 +1,6 @@
 name: 2Docker Multi-Arch
 
-on:
-  push:
-    branches:
-      - "main"
-
+on: [ push ]
 jobs:
   docker:
     runs-on: ubuntu-latest
